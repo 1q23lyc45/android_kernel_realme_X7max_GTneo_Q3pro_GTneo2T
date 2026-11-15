@@ -76,14 +76,14 @@ jobs:
     
     
     - name: 上传 Anykernel3
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v7
       with:
         name: 安卓11-realme_X7max_GTneo_Q3pro_GTneo2T-内核-卡刷包
         path: kernel_workspace/AnyKernel3/*
         
 
     - name: 上传编译内核
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v7
       with:
         name: realme_X7max_GTneo_Q3pro_GTneo2T-Image.gz-dtb
         path: kernel_workspace/android-kernel/out/arch/arm64/boot/Image.gz-dtb
