@@ -1,4 +1,4 @@
-name: realme_X7max_GTneo_Q3pro_GTneo2T-安卓11-ksu内核
+name: realme_X7max_GTneo_Q3pro_GTneo2T-安卓11-内核
 
 on:
   workflow_dispatch:
@@ -78,7 +78,7 @@ jobs:
     - name: 上传 Anykernel3
       uses: actions/upload-artifact@v3
       with:
-        name: 安卓11-realme_X7max_GTneo_Q3pro_GTneo2T-Ksu内核-卡刷包
+        name: 安卓11-realme_X7max_GTneo_Q3pro_GTneo2T-内核-卡刷包
         path: kernel_workspace/AnyKernel3/*
         
 
